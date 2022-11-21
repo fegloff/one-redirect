@@ -1,0 +1,17 @@
+{
+  "name": "One Redirect",
+  "manifest_version": 3,
+  "version": "1.1",
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules_1.json"
+    }]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": ["http://*/", "https://*/"]
+}
